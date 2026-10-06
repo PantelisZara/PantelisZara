@@ -17,10 +17,17 @@
 ![](https://img.shields.io/badge/Code-C++-informational?style=flat&logo=cplusplus&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-Java-informational?style=flat&logo=openjdk&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-TypeScript-informational?style=flat&logo=typescript&logoColor=white&color=2bbc8a)
+
+![](https://img.shields.io/badge/Backend-Spring_Boot-informational?style=flat&logo=springboot&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Database-PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Web-React-informational?style=flat&logo=react&logoColor=white&color=2bbc8a)
 
 ![](https://img.shields.io/badge/Tools-Selenium-informational?style=flat&logo=selenium&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Tools-Git-informational?style=flat&logo=git&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Tools-Qt-informational?style=flat&logo=qt&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/CI-GitHub_Actions-informational?style=flat&logo=githubactions&logoColor=white&color=2bbc8a)
 
 ![](https://img.shields.io/badge/IDE-Visual_Studio-informational?style=flat&logo=visualstudio&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/IDE-IntelliJ_IDEA-informational?style=flat&logo=intellijidea&logoColor=white&color=2bbc8a)
@@ -37,6 +44,13 @@
 ---
 
 ## Featured Projects
+
+### 🔹 Issunexa
+Full-stack Issue & Service Management platform built with Java 21, Spring Boot, PostgreSQL, React and TypeScript, with Docker, automated testing and GitHub Actions CI.
+
+➡️ https://github.com/PantelisZara/Issunexa
+
+---
 
 ### 🔹 CyberRef
 Desktop cybersecurity tool integrating the VirusTotal API for URL threat analysis.
