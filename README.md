@@ -81,6 +81,26 @@ C++ Greek word-guessing game for the Windows terminal.
 
 ---
 
+## Open Source Contributions
+
+I contribute to external Java projects, focusing on correctness, regression testing and maintainability.
+
+### Higher-Kinded-J
+
+[Higher-Kinded-J](https://github.com/higher-kinded-j/higher-kinded-j) provides functional programming tools, composable effects and optics for Java.
+
+- [#1165](https://github.com/higher-kinded-j/higher-kinded-j/pull/1165) — **Merged.** Relaxed lens and affine law test harness validation to accept valid fixtures, including Boolean lenses, with regression coverage for broken setters.
+- [#1166](https://github.com/higher-kinded-j/higher-kinded-j/pull/1166) — **Merged.** Corrected an annotation processor diagnostic for `@MapKey`; regression tests verify the suggestion and compile the corrected annotation under strict linting.
+- [#1189](https://github.com/higher-kinded-j/higher-kinded-j/pull/1189) — **Merged; approved by the upstream maintainer.** Extended affine set-set law checks to both argument orders, catching a previously missed failure. The maintainer independently validated the regression test.
+
+### Micrometer Tracing
+
+[Micrometer Tracing](https://github.com/micrometer-metrics/tracing) is an application tracing facade for Java.
+
+- [#1616](https://github.com/micrometer-metrics/tracing/pull/1616) — **Open; awaiting review.** Added lazy caching of `BraveTraceContext` wrappers in `BraveSpan`, preserving Brave's `LazySpan` lifecycle behaviour. Regression tests cover wrapper identity, concurrent access and lifecycle compatibility. Upstream DCO and CircleCI checks passed, including multiple JDK versions and Docker tests.
+
+---
+
 ## Other Experience
 
 - Contributed to website development and management for:
