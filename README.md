@@ -62,10 +62,11 @@ I contribute to external Java projects, focusing on correctness, regression test
 
 Worked with the upstream maintainer through review and follow-up changes; the maintainer independently validated the regression tests for #1189 and #1210.
 
+- [Checkstyle #22100](https://github.com/checkstyle/checkstyle/pull/22100) — Corrected expected-violation comments in `MissingJavadocPackage` annotation fixtures and removed two corresponding suppressions. This change is limited to test infrastructure.
+
 ### Open Contributions
 
 - [Micrometer Tracing #1616](https://github.com/micrometer-metrics/tracing/pull/1616) — Proposed lazy caching of `BraveTraceContext` wrappers in `BraveSpan`, preserving `LazySpan` lifecycle behaviour. Regression tests cover wrapper identity, concurrent access and lifecycle compatibility.
-- [Checkstyle #22100](https://github.com/checkstyle/checkstyle/pull/22100) — Corrected `MissingJavadocPackage` annotation test fixtures and removed the corresponding suppressions. This change is limited to test infrastructure.
 
 ---
 
