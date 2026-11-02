@@ -32,17 +32,19 @@ Linux & Windows user with practical graphic design experience.
 
 ## Featured Projects
 
-### [Warexis](https://github.com/PantelisZara/Warexis)
-
-Event-driven order, inventory and fulfillment platform with three Java 21/Spring Boot services, Kafka-based asynchronous coordination and independent PostgreSQL databases. Transactional outboxes, idempotent processing, bounded retries and dead-letter recovery address delivery failures.
-
-Includes Keycloak OAuth2/OIDC and role-based authorization, a React/TypeScript operations UI, automated integration and end-to-end tests, and GitHub Actions workflows. Runs locally with Docker Compose or optional single-node Kubernetes using kind, with optional Prometheus/Grafana/Tempo observability.
-
 ### [Issunexa](https://github.com/PantelisZara/Issunexa)
 
-Full-stack issue and service management application for support tickets. A Java 21/Spring Boot modular monolith uses PostgreSQL and Flyway, with Spring Security session authentication, CSRF protection and ownership-aware authorization.
+**[Live Demo](https://issunexa-demo.onrender.com/)** · **[Source Code](https://github.com/PantelisZara/Issunexa)** · **[Demo Walkthrough](https://github.com/PantelisZara/Issunexa/blob/master/docs/demo-ui.md)**
 
-The React/TypeScript interface supports ticket workflows, comments and history. Optimistic locking detects conflicting updates, and ticket changes commit with their history in one database transaction. Includes Docker, automated backend, frontend and browser tests, and GitHub Actions workflows.
+Portfolio help-desk application where requesters submit and track support tickets and agents claim, resolve and discuss them. I built a Java 21/Spring Boot modular monolith with PostgreSQL/Flyway and a React/TypeScript interface. Session authentication, CSRF protection and ownership-aware authorization control access; ticket changes and their history commit in one transaction, with optimistic locking for conflicting updates.
+
+Automated backend, frontend and real-stack browser tests run in GitHub Actions. The public HTTPS demonstration gives each visitor an isolated, expiring synthetic workspace. Use invented data only; Free hosting sleeps when idle, so the first load can take over a minute.
+
+### [Warexis](https://github.com/PantelisZara/Warexis)
+
+Complementary distributed-systems project for orders, inventory and fulfillment: three Java 21/Spring Boot services coordinate through Kafka with independent PostgreSQL databases. Transactional outboxes, idempotent consumers, bounded retries and dead-letter recovery address delivery failures.
+
+Includes Keycloak OAuth2/OIDC, role-based authorization and a React/TypeScript operations interface. Verification uses local Docker environments; optional single-node kind/Kubernetes and Prometheus/Grafana/Tempo observability are documented for local use.
 
 ---
 
