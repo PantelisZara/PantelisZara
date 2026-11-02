@@ -100,7 +100,7 @@ Worked with the upstream maintainer through review and follow-up changes; the ma
 
 ## Contact
 
-[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="40" alt="LinkedIn"/>](https://www.linkedin.com/in/panteleimon-zarakis-a15496339/)
+[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="40" alt="LinkedIn"/>](https://www.linkedin.com/in/panteleimon-zarakis/)
 &nbsp;
 [<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" height="40" alt="Gmail"/>](mailto:zarakisp@gmail.com)
 &nbsp;
